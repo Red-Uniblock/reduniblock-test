@@ -453,6 +453,7 @@ a.uni-logo-wrap:hover img.uni-logo { opacity: .8; transform: scale(1.03); transi
 /* === CONTACT === */
 .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 56px; }
 .contact-form { display: flex; flex-direction: column; gap: 18px; }
+.form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
 .form-group { display: flex; flex-direction: column; gap: 6px; }
 .form-group label { font-size: .85rem; font-weight: 600; color: rgba(255,255,255,.85); }
 .form-group input,
@@ -572,4 +573,5 @@ a.uni-logo-wrap:hover img.uni-logo { opacity: .8; transform: scale(1.03); transi
   .uni-grid-small { grid-template-columns: 1fr; }
   .join-banner { flex-direction: column; text-align: center; }
   .section { padding: 60px 0; }
+  .form-row { grid-template-columns: 1fr; }
 }

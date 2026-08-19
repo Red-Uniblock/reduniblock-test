@@ -187,7 +187,7 @@
 
         <!-- UCH -->
         <div class="uni-card">
-          <a href="https://www.uch.edu.ar" target="_blank" rel="noopener" class="uni-logo-wrap uni-size-uch">
+          <a href="universidades/champagnat.html" target="_blank" rel="noopener" class="uni-logo-wrap uni-size-uch">
             <img src="logos/uch.svg" alt="UCH" class="uni-logo" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
             <div class="uni-logo-placeholder" style="display:none">UCH</div>
           </a>
@@ -460,9 +460,19 @@
 
       <div class="contact-grid">
         <form class="contact-form" id="contact-form">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="nombre">Nombre</label>
+              <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required />
+            </div>
+            <div class="form-group">
+              <label for="apellido">Apellido</label>
+              <input type="text" id="apellido" name="apellido" placeholder="Tu apellido" required />
+            </div>
+          </div>
           <div class="form-group">
-            <label for="nombre">Nombre y apellido</label>
-            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo" required />
+            <label for="whatsapp">WhatsApp / Teléfono</label>
+            <input type="tel" id="whatsapp" name="whatsapp" placeholder="+54 9 11 1234-5678" />
           </div>
           <div class="form-group">
             <label for="email">Correo electrónico</label>

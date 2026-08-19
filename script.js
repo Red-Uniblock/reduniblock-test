@@ -40,13 +40,16 @@ document.getElementById('contact-form').addEventListener('submit', function(e) {
 
   // Build mailto link with form data
   const nombre = this.nombre.value;
+  const apellido = this.apellido.value;
+  const whatsapp = this.whatsapp.value;
   const email = this.email.value;
   const universidad = this.universidad.value;
   const mensaje = this.mensaje.value;
 
   const subject = encodeURIComponent(`Solicitud de incorporación – ${universidad}`);
+  const whatsappLine = whatsapp ? `\nWhatsApp/Teléfono: ${whatsapp}` : '';
   const body = encodeURIComponent(
-    `Nombre: ${nombre}\nEmail: ${email}\nUniversidad: ${universidad}\n\n${mensaje}`
+    `Nombre: ${nombre} ${apellido}\nEmail: ${email}${whatsappLine}\nUniversidad: ${universidad}\n\n${mensaje}`
   );
 
   setTimeout(() => {
