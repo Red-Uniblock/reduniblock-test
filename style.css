@@ -429,25 +429,16 @@ a.uni-logo-wrap:hover img.uni-logo { opacity: .8; transform: scale(1.03); transi
 .news-card h3 { font-size: 1.05rem; font-weight: 700; margin-bottom: 12px; line-height: 1.4; }
 .news-card p { font-size: .88rem; color: var(--gray-600); line-height: 1.7; }
 
-/* Curator.io carousel nav override */
-.crt-panel-prev, .crt-panel-next {
-  width: 52px !important; height: 52px !important;
-  background-color: var(--blue-700) !important;
-  opacity: 1 !important;
-  visibility: visible !important;
-  box-shadow: 0 3px 14px rgba(0,0,0,.4) !important;
+/* X/Twitter timeline embed */
+.twitter-feed-wrap {
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
-.crt-panel-prev { left: 6px !important; }
-.crt-panel-next { right: 6px !important; }
-.crt-panel-prev:hover, .crt-panel-next:hover,
-.crt-panel-prev:focus, .crt-panel-next:focus {
-  background-color: var(--blue-500) !important;
-  opacity: 1 !important;
-}
-.crt-panel-prev svg, .crt-panel-next svg {
-  color: var(--white) !important;
-  height: 24px !important;
-  opacity: 1 !important;
+.twitter-feed-wrap iframe {
+  border-radius: 12px;
+  max-width: 550px;
+  width: 100%;
 }
 
 /* === CONTACT === */
