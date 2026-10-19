@@ -1,0 +1,29 @@
+{
+  "updated": "2026-10-19T12:00:00Z",
+  "posts": [
+    {
+      "id": "ig_001",
+      "network": "instagram",
+      "content": "¡Bienvenidos a RedUniBlock! Somos la Red de Universidades en Blockchain de Argentina. Seguinos para enterarte de todas las novedades del ecosistema académico blockchain.",
+      "url": "https://www.instagram.com/reduniblock/",
+      "image": "",
+      "date": "2026-10-19T10:00:00Z"
+    },
+    {
+      "id": "li_001",
+      "network": "linkedin",
+      "content": "RedUniBlock continúa creciendo. Nuevas universidades se suman a nuestra red interuniversitaria de blockchain y Web3 en Argentina. ¡Estamos construyendo el futuro académico descentralizado!",
+      "url": "https://www.linkedin.com/company/reduniblock",
+      "image": "",
+      "date": "2026-10-18T15:00:00Z"
+    },
+    {
+      "id": "ig_002",
+      "network": "instagram",
+      "content": "Este es un post de ejemplo. Make.com reemplazará estas publicaciones automáticamente con el contenido real de Instagram y LinkedIn.",
+      "url": "https://www.instagram.com/reduniblock/",
+      "image": "",
+      "date": "2026-10-17T09:00:00Z"
+    }
+  ]
+}
